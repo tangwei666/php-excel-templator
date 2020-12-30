@@ -46,10 +46,10 @@ class PhpExcelTemplator
      * @param callable[] $events Events, applied for additional manipulations with the spreadsheet and the writer
      * @throws \PhpOffice\PhpSpreadsheet\Exception
      */
-	public static function saveToFile($templateFile, $outputFile, $params, $callbacks=[], $events=[]): void
+	public static function saveToFile($index=0,$templateFile, $outputFile, $params, $callbacks=[], $events=[]): void
 	{
         $spreadsheet = static::getSpreadsheet($templateFile);
-		$sheet = $spreadsheet->getActiveSheet();
+        $sheet = $spreadsheet->setActiveSheetIndex($index);
 		$templateVarsArr = $sheet->toArray();
 		static::renderWorksheet($sheet, $templateVarsArr, $params, $callbacks, $events);
 		static::saveSpreadsheetToFile($spreadsheet, $outputFile, $events);
