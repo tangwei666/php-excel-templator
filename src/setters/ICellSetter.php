@@ -1,9 +1,9 @@
 <?php
 
-namespace alhimik1986\PhpExcelTemplator\setters;
+namespace tangwei666\PhpExcelTemplator\setters;
 
-use alhimik1986\PhpExcelTemplator\InsertedCells;
-use alhimik1986\PhpExcelTemplator\params\SetterParam;
+use tangwei666\PhpExcelTemplator\InsertedCells;
+use tangwei666\PhpExcelTemplator\params\SetterParam;
 
 interface ICellSetter
 {

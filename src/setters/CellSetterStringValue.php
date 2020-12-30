@@ -1,12 +1,12 @@
 <?php
 
-namespace alhimik1986\PhpExcelTemplator\setters;
+namespace tangwei666\PhpExcelTemplator\setters;
 
 use Exception;
-use alhimik1986\PhpExcelTemplator\InsertedCells;
-use alhimik1986\PhpExcelTemplator\params\SetterParam;
-use alhimik1986\PhpExcelTemplator\params\ExcelParam;
-use alhimik1986\PhpExcelTemplator\params\CallbackParam;
+use tangwei666\PhpExcelTemplator\InsertedCells;
+use tangwei666\PhpExcelTemplator\params\SetterParam;
+use tangwei666\PhpExcelTemplator\params\ExcelParam;
+use tangwei666\PhpExcelTemplator\params\CallbackParam;
 use RuntimeException;
 
 class CellSetterStringValue implements ICellSetter

@@ -1,12 +1,12 @@
 <?php
 
-namespace alhimik1986\PhpExcelTemplator\setters;
+namespace tangwei666\PhpExcelTemplator\setters;
 
-use alhimik1986\PhpExcelTemplator\InsertedCells;
-use alhimik1986\PhpExcelTemplator\params\CallbackParam;
-use alhimik1986\PhpExcelTemplator\params\ExcelParam;
-use alhimik1986\PhpExcelTemplator\params\SetterParam;
-use alhimik1986\PhpExcelTemplator\ReferenceHelper;
+use tangwei666\PhpExcelTemplator\InsertedCells;
+use tangwei666\PhpExcelTemplator\params\CallbackParam;
+use tangwei666\PhpExcelTemplator\params\ExcelParam;
+use tangwei666\PhpExcelTemplator\params\SetterParam;
+use tangwei666\PhpExcelTemplator\ReferenceHelper;
 use PhpOffice\PhpSpreadsheet\Cell\Coordinate;
 use PhpOffice\PhpSpreadsheet\Exception as SpreadsheetException;
 use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;

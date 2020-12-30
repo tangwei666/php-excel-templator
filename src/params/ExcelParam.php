@@ -1,6 +1,6 @@
 <?php
 
-namespace alhimik1986\PhpExcelTemplator\params;
+namespace tangwei666\PhpExcelTemplator\params;
 
 class ExcelParam
 {

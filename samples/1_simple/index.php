@@ -1,5 +1,5 @@
 <?php
-use alhimik1986\PhpExcelTemplator\PhpExcelTemplator;
+use tangwei666\PhpExcelTemplator\PhpExcelTemplator;
 
 require( __DIR__ . '/../Bootstrap.php');
 
